@@ -1,0 +1,34 @@
+# pyproject.toml
+
+[build-system]
+# Especificamos las herramientas necesarias para construir el paquete.
+requires = ["setuptools>=61.0", "wheel"] 
+build-backend = "setuptools.build_meta"
+
+[project]
+# --- Metadatos del Paquete ---
+name = "mini_turtle"      # 👈 El nombre que se usará en PyPI y con `pip install`
+version = "1.0.0"                  # 👈 Versión actual (debe coincidir con __init__.py)
+description = "Un paquete simple para mover una tortuga en el eje x"
+readme = "README.md"
+authors = [
+    {name = "Su Nombre", email = "su.email@ejemplo.com"},
+]
+license = {text = "MIT License"}   # O especificar un archivo `LICENSE`
+keywords = ["geometría", "calculadora", "utilidades"]
+
+# Clasificadores que ayudan a la gente a encontrar su paquete en PyPI
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta", # Indica que no es completamente final
+]
+
+# Dependencias (si su paquete necesitara numpy, se listaría aquí)
+dependencies = [
+    # En este caso, solo necesitamos la librería estándar math, no hay dependencias externas
+]
+
+[project.urls]
+Homepage = https://github.com/nataliaamaya-collab/mi-primera-pagina/tree/main
