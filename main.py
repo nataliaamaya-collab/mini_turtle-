@@ -17,3 +17,5 @@ print("DIBUJANDO ESCALERA 2\n")
 
 adelante(5)
 abajo(3)
+adelante(5)
+abajo(3)
