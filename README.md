@@ -109,7 +109,7 @@ reiniciar()
 
 print("DIBUJANDO ESCALERA 2\n")
 
-adelante(5)
+adelante(5) 
 abajo(3)
 adelante(5)
 abajo(3)
@@ -118,19 +118,17 @@ abajo(3)
 <img width="663" height="590" alt="Captura de pantalla 2025-12-11 232625" src="https://github.com/user-attachments/assets/e0e47374-08a7-4adb-bb77-72661c81f3c4" />
 
 
+# Con este ejercicio se aprende a:
 
+* Crear un paquete en Python
+
+* Separar la lógica del programa de su uso
+
+* Aplicar el concepto de modularidad
+
+* Usar variables globales de forma controlada
   
-📝### **Contenido del Repositorio**
 
-Este repositorio incluye:
-
-* El paquete mini_turtle
-
-* Las funciones implementadas en programación funcional
-
-* Un archivo main.py para probar el paquete
-
-* Este archivo README.md explicativo
 
 
 
